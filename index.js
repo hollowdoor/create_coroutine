@@ -2,6 +2,10 @@ require('setimmediate');
 var Promise = require('es6-promise').Promise,
     polysolve = require('polysolve');
 
+/*
+git remote add origin https://github.com/hollowdoor/create_coroutine.git
+git push -u origin master
+*/
 module.exports = cc;
 
 function cc(cb){
